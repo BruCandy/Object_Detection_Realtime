@@ -1,0 +1,7 @@
+fastapi
+websockets
+torch
+opencv-python
+numpy
+matplotlib
+uvicorn

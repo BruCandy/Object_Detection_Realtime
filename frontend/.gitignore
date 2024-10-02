@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 機密情報が含まれる可能性のあるファイルやディレクトリを追加
+.env                
+config/*.json       
+credentials.json    
+firebase.json       
+
+# デフォルトで無視するファイル
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*                 # エディタの設定ファイルは個人固有の設定が含まれる可能性があるため除外
+!.vscode/extensions.json  # 推奨拡張機能のリストはプロジェクトに関連しているため残す
+.idea                     # JetBrains系のIDE設定ファイルは無視
+.DS_Store                 # macOSのシステムファイル
+*.suo                     # Visual Studioの設定ファイル
+*.ntvs*                   # Visual Studio用のNode.jsプロジェクトファイル
+*.njsproj                 # Visual Studioのプロジェクトファイル
+*.sln                     # Visual Studioのソリューションファイル
+*.sw?                     # Vimスワップファイル
+
+# 追加：ビルドやキャッシュに関連するファイル
+.cache/                   # ビルドや実行時のキャッシュファイル
+out/                      # ViteやNext.jsなどのビルド出力がこのディレクトリに生成されることがある
+coverage/                 # テストカバレッジレポート
+build/                    # ビルド成果物が生成されるディレクトリを無視
+
+# 追加：一部のIDEやツールの設定ファイルを無視
+.vscode/settings.json      # VSCodeの設定ファイル（個別の設定が含まれる場合がある）

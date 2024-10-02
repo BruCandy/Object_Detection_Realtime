@@ -1,0 +1,14 @@
+# Python関連
+__pycache__/
+
+# 環境設定/依存関係ファイル
+myenv/
+venv/
+env/
+ENV/
+.venv/
+
+# 大きいファイル
+api/models/*.pth
+
+.env      
